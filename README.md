@@ -1,17 +1,15 @@
+# Data Cleaning & QA Pipeline
 
-# Operations Project: Data Cleaning & QA Pipeline
+## Goal
+Turn messy, real-world style data into reliable, analysis-ready data.
 
-## Overview
-This project demonstrates how to clean messy, real-world data and
-validate it using explicit, documented data quality rules.
+## What I Did
+- Generated a messy dataset with duplicates and invalid values
+- Applied explicit cleaning rules
+- Validated outputs with quality checks
 
-## Skills Demonstrated
-- Data cleaning with pandas
-- Reproducible cleaning rules
-- Data quality checks (production-style thinking)
+## Why This Matters
+Demonstrates production-style thinking and data trustworthiness.
 
-## How to Run
-1. Install requirements: `pip install -r requirements.txt`
-2. Generate messy data: `python python/00_make_messy_data.py`
-3. Clean data: `python python/01_clean_data.py`
-4. Run QA checks: `python python/02_quality_checks.py`
+## Tools
+Python · pandas
